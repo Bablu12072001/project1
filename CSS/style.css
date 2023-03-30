@@ -1,0 +1,193 @@
+@import url('http://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+@import url('http://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;900& display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family:'Roboto Slab',serif;
+    background-color: #fff;
+}
+a{
+    text-decoration: none;
+}
+::-webkit-scrollbar{
+    width: .375rem;
+}
+::-webkit-scrollbar-track{
+    background: #fc5185;
+}
+
+::-webkit-scrollbar-thumb{
+    background : lightblue;
+}
+
+.wrapper{
+    padding: 6.25rem 25px;
+
+}
+ 
+ 
+h1{
+    font-size: 3.875rem;
+    margin-bottom: 1.25rem;
+    font-weight: 600;
+    color: rgb(26, 4, 4);
+    font-family:'Josefin sans',sans-serif ;
+}
+h2 {
+    font-size: 2.875rem;
+    
+    font-weight: 600;
+    color: rgb(23, 4, 4);
+    font-family: 'Josefin sans', sans-serif;
+}
+h3 {
+    font-size: 2.25rem;
+     
+    font-weight: 600;
+    color: rgb(37, 3, 3);
+    font-family: 'Josefin sans', sans-serif;
+}
+h4 {
+    font-size:1.5rem;
+    font-weight: 600;
+    line-height: 2.25rem;
+    color: black;
+    font-family: 'Josefin sans', sans-serif;
+}
+h5 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    color:  #fc5185;
+    margin-bottom: .9375rem;
+    font-family: 'Josefin sans', sans-serif;
+}
+h6 {
+    font-size: .875rem;
+    font-weight: 300;
+    line-height: 1.25rem;
+    color: black;
+    margin-bottom: .9375rem;
+    text-transform: uppercase;
+    font-family: 'Josefin sans', sans-serif;
+}
+p{
+    font-size: 1rem;
+    color: rgb(30, 4, 4);
+    line-height: 2.5rem;
+}
+  
+.header_wrapper .navbar{
+    padding: .9375rem 0;
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+
+}
+.header_wrapper .navbar-toggler,
+.header_wrapper .navbar-toggler:focus
+ {
+    border: 0;
+    box-shadow: none;
+    color:black;
+    line-height: 2;
+    
+}
+.header_wrapper .nav-item{
+    margin: 0 .625rem;
+}
+.header_wrapper .nav-item .nav-link{
+    font-size: 1.125rem;
+    font-weight: 400;
+    color:rgb(35, 4, 4) ;
+    display: inline-block;
+    font-family: 'Josefin sans' sans-serif;
+   
+}
+
+.nav-item .nav-link:hover,
+.nav-item .nav-link:focus,
+.nav-item .nav-link.active{
+    color:rgb(18, 231, 25);
+
+}
+ 
+.navbar .header-scrolled{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: rgb(236, 12, 12);
+    box-shadow: .5084rem 1.1419rem 2.5rem 0 rgb(0 0 0/8%);
+    transition: 0.3s ease-in-out;
+}
+
+.img1
+{
+    width: 600px;
+    height: 400px;
+}
+.img2{
+    display: block;
+    width: 135px;
+    height: 50px;
+     
+    border-radius: 50%;
+    position: relative;
+
+}
+.ang{
+    text-decoration: none;
+    color: black;
+    background: block;
+    
+     
+}
+
+.ang1 {
+    text-decoration: none;
+    color: rgb(12, 222, 26);
+    background: block;
+    font-size: 10px;
+
+
+}
+.ang1:hover {
+    color:rgb(12, 222, 26);
+}
+.ang:hover{
+    color: black;
+}
+
+.header_wrapper{
+    background-color: white;
+}
+
+
+.container2{
+    
+    width: 100%;
+    background-color: rgb(203, 242, 242);
+    display: block;
+
+}
+.container {
+    position: fixed;
+    background-color: aqua;
+    width: 100%;
+    height: 220px;
+    padding: 100px;
+    
+     
+
+}
+.img3{
+    width: 700px;
+    height: 800px;
+}
+ 
